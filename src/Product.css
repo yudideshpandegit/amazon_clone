@@ -1,0 +1,51 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    margin: 10px;
+    padding: 20px;
+    width: 96%;
+    min-width: 100px;
+    min-height: 400px;
+    background-color: white;
+    z-index: 1;
+}
+
+.product > img {
+    max-width: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.product > button{
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color:  #a88734 #9c7e31 #846a29;
+    color: black;
+    margin-top: 15px; 
+}
+
+
+.product__price{
+    margin-top: 5px;
+}
+
+.product__info{
+    height: 80px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.product__rating{
+    display: flex;
+}
+
+.product__rating p > .MuiSvgIcon-root{
+    color: #f0c14b;
+}
